@@ -69,8 +69,11 @@ Upload data in POST parameter named ``file``:
 Query parameters
 ----------------
 
-- **to**: output mimetype (optionnal, default to ``application/pdf`` if not provided); 
-- **from**: input mimetype (optionnal, guessed from input url or file if not provided).
+- **to**: output mimetype (optional, default to ``application/pdf`` if not provided); 
+- **from**: input mimetype (optional, guessed from input url or file if not provided).
+
+list of mimetypes: 
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types
 
 
 =======
