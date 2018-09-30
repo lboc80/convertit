@@ -118,7 +118,9 @@ Using *gunicorn* for example :
 
     gunicorn --workers=1 --paste=production.ini
 
-Using Docker :
+
+Using Docker
+------------
 
 ::
 
