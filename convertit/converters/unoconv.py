@@ -74,5 +74,6 @@ def converters():
         (types_map['.doc'], types_map['.pdf']): to_pdf,
         (types_map['.docx'], types_map['.pdf']): to_pdf,
         (types_map['.ppt'], types_map['.pdf']): to_pdf,
-        (types_map['.pptx'], types_map['.pdf']): to_pdf
+        (types_map['.pptx'], types_map['.pdf']): to_pdf,
+        ('application/octet-stream', types_map['.pdf']): to_pdf
     }
